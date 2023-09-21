@@ -1,0 +1,35 @@
+﻿.üründetay{
+   max-width:100%;
+}
+.üründetay input[type="number"]{
+    -moz-appearance:textfield !important;
+    text-align:center;
+}
+.üründetay input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.üründetay input[type=number]:focus {
+    border-color: var( --bs-border-color);
+    box-shadow:none;
+}
+.üründetay > .ürünbilgileri > .inputnum > button {
+    font-size:20px;
+    width:2rem;
+    padding:0px;
+    margin:0px;
+}
+.inputnum input{
+    min-width:3rem;
+    max-width:4rem;
+}
+@media(max-width:767px){
+    .üründetay .row {
+        display: block !important;
+    }
+   
+}
+.img-cover{
+    max-height:455px;
+}

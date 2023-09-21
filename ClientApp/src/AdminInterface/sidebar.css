@@ -1,0 +1,110 @@
+/*Sidebar */
+.sidebar {
+    min-height: 100vh;
+    font-size: 14px;
+    position:sticky;
+    top:0;
+    left:0;
+    height:100%;
+    border-right:1px solid whitesmoke;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin: 12px;
+}
+
+.sidebar ul li .active {
+    color: var(--bs-yellow);
+    padding: 10px;
+    background-color: var(--bs-dark);
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: var(--bs-dark);
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+/*Admin Panel Sayfası */
+.admin-panel ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+.table {
+    max-width:100%;
+}
+td {
+    overflow: auto;
+    word-break: break-word;
+    max-height: 21px;
+}
+.scroll {
+    overflow: auto;
+    word-break: break-all;
+    max-height: 21px;
+}
+/* Kategori Sayfası */
+.categories button {
+  padding:12px 6px;
+  line-height: 0px !important;
+  align-self: center;
+}
+.btn-chnge {
+    padding: 7px 5px !important;
+}
+.btn-chnge i {
+transform: rotate(45deg) !important;
+}
+/* Tüm Modal Sayfaları */
+.modal-body input {
+    max-width: 300px;
+}
+.modalproduct-body input{
+    width:200px !important;
+    max-width:250px !important;
+}
+    .modalproduct-body textarea {
+        min-height: 75px;
+        max-height: 100px;
+    }
+    .modalproduct-body select {
+        width: 200px !important;
+    }
+.modal-body select{
+    max-width:300px;
+}
+.modal-body textarea{
+    max-width:300px;
+    min-height:50px;
+    max-height:150px;
+}
+.modal-footer button{
+    padding:5px 20px;
+}
+.modalfooter button {
+    padding: 5px 20px;
+}
+/* Addadvertise Modal */
+.imgbox > .card{
+    max-width: 25rem;
+    min-width:18rem;
+    height: 16rem;
+    min-height:10rem;
+}
+.img-fitin {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+/* Advertise */
+.imgwrapper > .cardx{
+    width:8rem;
+    height:8rem;
+}

@@ -1,0 +1,106 @@
+.mainnav > ul > li {
+    margin: 0 25px;
+}
+
+.mainnav .active {
+    color: var(--bs-primary);
+    font-weight:bolder;
+}
+
+.mainnav > ul > li > a {
+    text-decoration: none;
+    color: var(--bs-dark);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+    .mainnav > ul > li > a:hover {
+        color: var(--bs-yellow);
+    }
+
+.dontshow {
+    border: none;
+    background: none;
+    padding: 0px;
+}
+
+.dontshow i {
+    transition: all 0.6s ease;
+}
+
+.dontshow i:hover {
+    color: var(--bs-yellow);
+}
+
+.exact {
+    top: 30px;
+    right: 50px;
+    background-color: #fff;
+}
+
+/*hover navbar dropdown menu*/
+@media(min-width: 768px) {
+    .navbar-nav li:hover .dropdown-menu {
+        display: block;
+    }
+}
+.dropdown-menu {
+    min-width: 8rem;
+    box-shadow: whitesmoke 2px 2px 15px !important;
+    border:1px solid whitesmoke;
+}
+    .dropdown-menu a {
+        transition: all 0.3s ease !important;
+    }
+.dropdown-menu a:focus{
+    background:none;
+    color:black;
+}
+    .dropdown-menu a:hover {
+        background: none;
+        color: var(--bs-yellow);
+    }
+
+/*cart*/
+.cart ul li{
+   list-style:none;
+   font-size:10px;
+}
+.w-70{
+    width:70%;
+}
+.card-wrapper{
+ width:70%;
+}
+.card-wrapper button{
+    font-size:10px;
+}
+.wrapper > .card {
+    width: 25%;
+    top:23%;
+    height:100%;
+}
+.cart ul .imgwrap {
+    width: 14rem;
+    height: 10rem;
+}
+.cart ul input {
+    min-width: 3rem;
+    max-width: 4rem;
+}
+.cart input[type="number"] {
+    -moz-appearance: textfield !important;
+    text-align: center;
+}
+
+.cart input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart input[type=number]:focus {
+    border-color: var( --bs-border-color);
+    box-shadow: none;
+}
+
